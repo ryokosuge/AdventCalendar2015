@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82368591C194FE600D88187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82368581C194FE600D88187 /* AppDelegate.swift */; };
+		F823685B1C194FE600D88187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F823685A1C194FE600D88187 /* ViewController.swift */; };
+		F823685E1C194FE600D88187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F823685C1C194FE600D88187 /* Main.storyboard */; };
+		F82368601C194FE600D88187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F823685F1C194FE600D88187 /* Assets.xcassets */; };
+		F82368631C194FE600D88187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82368611C194FE600D88187 /* LaunchScreen.storyboard */; };
+		F823686E1C194FE600D88187 /* SampleSmartNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F823686D1C194FE600D88187 /* SampleSmartNewsUITests.swift */; };
+		F82368791C194FE600D88187 /* SampleSmartNewsUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82368781C194FE600D88187 /* SampleSmartNewsUIUITests.swift */; };
+		F82368891C19584300D88187 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82368881C19584300D88187 /* ContentViewController.swift */; };
+		F823688B1C1963FB00D88187 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F823688A1C1963FB00D88187 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F823686A1C194FE600D88187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F823684D1C194FE600D88187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82368541C194FE600D88187;
+			remoteInfo = SampleSmartNewsUI;
+		};
+		F82368751C194FE600D88187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F823684D1C194FE600D88187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82368541C194FE600D88187;
+			remoteInfo = SampleSmartNewsUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F82368551C194FE600D88187 /* SampleSmartNewsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSmartNewsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82368581C194FE600D88187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F823685A1C194FE600D88187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F823685D1C194FE600D88187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F823685F1C194FE600D88187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F82368621C194FE600D88187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F82368641C194FE600D88187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82368691C194FE600D88187 /* SampleSmartNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSmartNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F823686D1C194FE600D88187 /* SampleSmartNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSmartNewsUITests.swift; sourceTree = "<group>"; };
+		F823686F1C194FE600D88187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82368741C194FE600D88187 /* SampleSmartNewsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSmartNewsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82368781C194FE600D88187 /* SampleSmartNewsUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSmartNewsUIUITests.swift; sourceTree = "<group>"; };
+		F823687A1C194FE600D88187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82368881C19584300D88187 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		F823688A1C1963FB00D88187 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F82368521C194FE600D88187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82368661C194FE600D88187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82368711C194FE600D88187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F823684C1C194FE600D88187 = {
+			isa = PBXGroup;
+			children = (
+				F82368571C194FE600D88187 /* SampleSmartNewsUI */,
+				F823686C1C194FE600D88187 /* SampleSmartNewsUITests */,
+				F82368771C194FE600D88187 /* SampleSmartNewsUIUITests */,
+				F82368561C194FE600D88187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F82368561C194FE600D88187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82368551C194FE600D88187 /* SampleSmartNewsUI.app */,
+				F82368691C194FE600D88187 /* SampleSmartNewsUITests.xctest */,
+				F82368741C194FE600D88187 /* SampleSmartNewsUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F82368571C194FE600D88187 /* SampleSmartNewsUI */ = {
+			isa = PBXGroup;
+			children = (
+				F82368581C194FE600D88187 /* AppDelegate.swift */,
+				F823685A1C194FE600D88187 /* ViewController.swift */,
+				F823685C1C194FE600D88187 /* Main.storyboard */,
+				F823685F1C194FE600D88187 /* Assets.xcassets */,
+				F82368611C194FE600D88187 /* LaunchScreen.storyboard */,
+				F82368641C194FE600D88187 /* Info.plist */,
+				F82368881C19584300D88187 /* ContentViewController.swift */,
+				F823688A1C1963FB00D88187 /* DetailViewController.swift */,
+			);
+			path = SampleSmartNewsUI;
+			sourceTree = "<group>";
+		};
+		F823686C1C194FE600D88187 /* SampleSmartNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F823686D1C194FE600D88187 /* SampleSmartNewsUITests.swift */,
+				F823686F1C194FE600D88187 /* Info.plist */,
+			);
+			path = SampleSmartNewsUITests;
+			sourceTree = "<group>";
+		};
+		F82368771C194FE600D88187 /* SampleSmartNewsUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F82368781C194FE600D88187 /* SampleSmartNewsUIUITests.swift */,
+				F823687A1C194FE600D88187 /* Info.plist */,
+			);
+			path = SampleSmartNewsUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F82368541C194FE600D88187 /* SampleSmartNewsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F823687D1C194FE600D88187 /* Build configuration list for PBXNativeTarget "SampleSmartNewsUI" */;
+			buildPhases = (
+				F82368511C194FE600D88187 /* Sources */,
+				F82368521C194FE600D88187 /* Frameworks */,
+				F82368531C194FE600D88187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleSmartNewsUI;
+			productName = SampleSmartNewsUI;
+			productReference = F82368551C194FE600D88187 /* SampleSmartNewsUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F82368681C194FE600D88187 /* SampleSmartNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82368801C194FE600D88187 /* Build configuration list for PBXNativeTarget "SampleSmartNewsUITests" */;
+			buildPhases = (
+				F82368651C194FE600D88187 /* Sources */,
+				F82368661C194FE600D88187 /* Frameworks */,
+				F82368671C194FE600D88187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F823686B1C194FE600D88187 /* PBXTargetDependency */,
+			);
+			name = SampleSmartNewsUITests;
+			productName = SampleSmartNewsUITests;
+			productReference = F82368691C194FE600D88187 /* SampleSmartNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F82368731C194FE600D88187 /* SampleSmartNewsUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82368831C194FE600D88187 /* Build configuration list for PBXNativeTarget "SampleSmartNewsUIUITests" */;
+			buildPhases = (
+				F82368701C194FE600D88187 /* Sources */,
+				F82368711C194FE600D88187 /* Frameworks */,
+				F82368721C194FE600D88187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82368761C194FE600D88187 /* PBXTargetDependency */,
+			);
+			name = SampleSmartNewsUIUITests;
+			productName = SampleSmartNewsUIUITests;
+			productReference = F82368741C194FE600D88187 /* SampleSmartNewsUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F823684D1C194FE600D88187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RyoKosuge;
+				TargetAttributes = {
+					F82368541C194FE600D88187 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F82368681C194FE600D88187 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F82368541C194FE600D88187;
+					};
+					F82368731C194FE600D88187 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F82368541C194FE600D88187;
+					};
+				};
+			};
+			buildConfigurationList = F82368501C194FE600D88187 /* Build configuration list for PBXProject "SampleSmartNewsUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F823684C1C194FE600D88187;
+			productRefGroup = F82368561C194FE600D88187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F82368541C194FE600D88187 /* SampleSmartNewsUI */,
+				F82368681C194FE600D88187 /* SampleSmartNewsUITests */,
+				F82368731C194FE600D88187 /* SampleSmartNewsUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F82368531C194FE600D88187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82368631C194FE600D88187 /* LaunchScreen.storyboard in Resources */,
+				F82368601C194FE600D88187 /* Assets.xcassets in Resources */,
+				F823685E1C194FE600D88187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82368671C194FE600D88187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82368721C194FE600D88187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F82368511C194FE600D88187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F823685B1C194FE600D88187 /* ViewController.swift in Sources */,
+				F82368591C194FE600D88187 /* AppDelegate.swift in Sources */,
+				F82368891C19584300D88187 /* ContentViewController.swift in Sources */,
+				F823688B1C1963FB00D88187 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82368651C194FE600D88187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F823686E1C194FE600D88187 /* SampleSmartNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82368701C194FE600D88187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82368791C194FE600D88187 /* SampleSmartNewsUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F823686B1C194FE600D88187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82368541C194FE600D88187 /* SampleSmartNewsUI */;
+			targetProxy = F823686A1C194FE600D88187 /* PBXContainerItemProxy */;
+		};
+		F82368761C194FE600D88187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82368541C194FE600D88187 /* SampleSmartNewsUI */;
+			targetProxy = F82368751C194FE600D88187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F823685C1C194FE600D88187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F823685D1C194FE600D88187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F82368611C194FE600D88187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82368621C194FE600D88187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F823687B1C194FE600D88187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F823687C1C194FE600D88187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F823687E1C194FE600D88187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SampleSmartNewsUI/Info.plist;
+				INSTALL_OWNER = kosuge;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSmartNewsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F823687F1C194FE600D88187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SampleSmartNewsUI/Info.plist;
+				INSTALL_OWNER = kosuge;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSmartNewsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F82368811C194FE600D88187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleSmartNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSmartNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleSmartNewsUI.app/SampleSmartNewsUI";
+			};
+			name = Debug;
+		};
+		F82368821C194FE600D88187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleSmartNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSmartNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleSmartNewsUI.app/SampleSmartNewsUI";
+			};
+			name = Release;
+		};
+		F82368841C194FE600D88187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SampleSmartNewsUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSmartNewsUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SampleSmartNewsUI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F82368851C194FE600D88187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SampleSmartNewsUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSmartNewsUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SampleSmartNewsUI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F82368501C194FE600D88187 /* Build configuration list for PBXProject "SampleSmartNewsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F823687B1C194FE600D88187 /* Debug */,
+				F823687C1C194FE600D88187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F823687D1C194FE600D88187 /* Build configuration list for PBXNativeTarget "SampleSmartNewsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F823687E1C194FE600D88187 /* Debug */,
+				F823687F1C194FE600D88187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F82368801C194FE600D88187 /* Build configuration list for PBXNativeTarget "SampleSmartNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82368811C194FE600D88187 /* Debug */,
+				F82368821C194FE600D88187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F82368831C194FE600D88187 /* Build configuration list for PBXNativeTarget "SampleSmartNewsUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82368841C194FE600D88187 /* Debug */,
+				F82368851C194FE600D88187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F823684D1C194FE600D88187 /* Project object */;
+}
