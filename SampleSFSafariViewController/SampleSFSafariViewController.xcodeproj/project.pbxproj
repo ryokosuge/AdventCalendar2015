@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263368DD46D199EC535F2B81 /* Pods_SampleSFSafariViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76E770C21DCB367EEEFD566 /* Pods_SampleSFSafariViewController.framework */; };
+		F8059D321C1AC6450029B45C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8059D311C1AC6450029B45C /* AppDelegate.swift */; };
+		F8059D341C1AC6450029B45C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8059D331C1AC6450029B45C /* ViewController.swift */; };
+		F8059D371C1AC6450029B45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8059D351C1AC6450029B45C /* Main.storyboard */; };
+		F8059D391C1AC6450029B45C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8059D381C1AC6450029B45C /* Assets.xcassets */; };
+		F8059D3C1C1AC6450029B45C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8059D3A1C1AC6450029B45C /* LaunchScreen.storyboard */; };
+		F8059D471C1AC6450029B45C /* SampleSFSafariViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8059D461C1AC6450029B45C /* SampleSFSafariViewControllerTests.swift */; };
+		F8059D521C1AC6450029B45C /* SampleSFSafariViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8059D511C1AC6450029B45C /* SampleSFSafariViewControllerUITests.swift */; };
+		F8550F5F1C1ACA240026F163 /* QiitaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8550F5E1C1ACA240026F163 /* QiitaService.swift */; };
+		F8550F631C1ACB100026F163 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8550F621C1ACB100026F163 /* ItemTableViewCell.xib */; };
+		F8550F671C1ACBC30026F163 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8550F661C1ACBC30026F163 /* ItemTableViewCell.swift */; };
+		F8550F691C1AD4860026F163 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8550F681C1AD4860026F163 /* SafariServices.framework */; };
+		F8550F6B1C1AD49C0026F163 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8550F6A1C1AD49C0026F163 /* SafariViewController.swift */; };
+		F8550F6D1C1AD64B0026F163 /* ModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8550F6C1C1AD64B0026F163 /* ModalAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8059D431C1AC6450029B45C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8059D261C1AC6450029B45C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8059D2D1C1AC6450029B45C;
+			remoteInfo = SampleSFSafariViewController;
+		};
+		F8059D4E1C1AC6450029B45C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8059D261C1AC6450029B45C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8059D2D1C1AC6450029B45C;
+			remoteInfo = SampleSFSafariViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		195709638B2E3AE89BE36479 /* Pods-SampleSFSafariViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSFSafariViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleSFSafariViewController/Pods-SampleSFSafariViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		B76E770C21DCB367EEEFD566 /* Pods_SampleSFSafariViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSFSafariViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08384DE22069C18BA6F6FF7 /* Pods-SampleSFSafariViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSFSafariViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleSFSafariViewController/Pods-SampleSFSafariViewController.release.xcconfig"; sourceTree = "<group>"; };
+		F8059D2E1C1AC6450029B45C /* SampleSFSafariViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSFSafariViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8059D311C1AC6450029B45C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8059D331C1AC6450029B45C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8059D361C1AC6450029B45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8059D381C1AC6450029B45C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8059D3B1C1AC6450029B45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8059D3D1C1AC6450029B45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8059D421C1AC6450029B45C /* SampleSFSafariViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSFSafariViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8059D461C1AC6450029B45C /* SampleSFSafariViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSFSafariViewControllerTests.swift; sourceTree = "<group>"; };
+		F8059D481C1AC6450029B45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8059D4D1C1AC6450029B45C /* SampleSFSafariViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSFSafariViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8059D511C1AC6450029B45C /* SampleSFSafariViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSFSafariViewControllerUITests.swift; sourceTree = "<group>"; };
+		F8059D531C1AC6450029B45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8550F5E1C1ACA240026F163 /* QiitaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiitaService.swift; sourceTree = "<group>"; };
+		F8550F621C1ACB100026F163 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		F8550F661C1ACBC30026F163 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		F8550F681C1AD4860026F163 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		F8550F6A1C1AD49C0026F163 /* SafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
+		F8550F6C1C1AD64B0026F163 /* ModalAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8059D2B1C1AC6450029B45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8550F691C1AD4860026F163 /* SafariServices.framework in Frameworks */,
+				263368DD46D199EC535F2B81 /* Pods_SampleSFSafariViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8059D3F1C1AC6450029B45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8059D4A1C1AC6450029B45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C8D914BB47A67F91CD331D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				195709638B2E3AE89BE36479 /* Pods-SampleSFSafariViewController.debug.xcconfig */,
+				E08384DE22069C18BA6F6FF7 /* Pods-SampleSFSafariViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79509B591BCA2EBE913B4860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8550F681C1AD4860026F163 /* SafariServices.framework */,
+				B76E770C21DCB367EEEFD566 /* Pods_SampleSFSafariViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8059D251C1AC6450029B45C = {
+			isa = PBXGroup;
+			children = (
+				F8059D301C1AC6450029B45C /* SampleSFSafariViewController */,
+				F8059D451C1AC6450029B45C /* SampleSFSafariViewControllerTests */,
+				F8059D501C1AC6450029B45C /* SampleSFSafariViewControllerUITests */,
+				F8059D2F1C1AC6450029B45C /* Products */,
+				04C8D914BB47A67F91CD331D /* Pods */,
+				79509B591BCA2EBE913B4860 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8059D2F1C1AC6450029B45C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8059D2E1C1AC6450029B45C /* SampleSFSafariViewController.app */,
+				F8059D421C1AC6450029B45C /* SampleSFSafariViewControllerTests.xctest */,
+				F8059D4D1C1AC6450029B45C /* SampleSFSafariViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8059D301C1AC6450029B45C /* SampleSFSafariViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F8059D311C1AC6450029B45C /* AppDelegate.swift */,
+				F8059D331C1AC6450029B45C /* ViewController.swift */,
+				F8059D351C1AC6450029B45C /* Main.storyboard */,
+				F8059D381C1AC6450029B45C /* Assets.xcassets */,
+				F8059D3A1C1AC6450029B45C /* LaunchScreen.storyboard */,
+				F8059D3D1C1AC6450029B45C /* Info.plist */,
+				F8550F5E1C1ACA240026F163 /* QiitaService.swift */,
+				F8550F621C1ACB100026F163 /* ItemTableViewCell.xib */,
+				F8550F661C1ACBC30026F163 /* ItemTableViewCell.swift */,
+				F8550F6A1C1AD49C0026F163 /* SafariViewController.swift */,
+				F8550F6C1C1AD64B0026F163 /* ModalAnimator.swift */,
+			);
+			path = SampleSFSafariViewController;
+			sourceTree = "<group>";
+		};
+		F8059D451C1AC6450029B45C /* SampleSFSafariViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8059D461C1AC6450029B45C /* SampleSFSafariViewControllerTests.swift */,
+				F8059D481C1AC6450029B45C /* Info.plist */,
+			);
+			path = SampleSFSafariViewControllerTests;
+			sourceTree = "<group>";
+		};
+		F8059D501C1AC6450029B45C /* SampleSFSafariViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8059D511C1AC6450029B45C /* SampleSFSafariViewControllerUITests.swift */,
+				F8059D531C1AC6450029B45C /* Info.plist */,
+			);
+			path = SampleSFSafariViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8059D2D1C1AC6450029B45C /* SampleSFSafariViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8059D561C1AC6450029B45C /* Build configuration list for PBXNativeTarget "SampleSFSafariViewController" */;
+			buildPhases = (
+				0433DE58127B5C3A5036F08D /* Check Pods Manifest.lock */,
+				F8059D2A1C1AC6450029B45C /* Sources */,
+				F8059D2B1C1AC6450029B45C /* Frameworks */,
+				F8059D2C1C1AC6450029B45C /* Resources */,
+				FDBF06E4249441BF3DE9EA65 /* Embed Pods Frameworks */,
+				0789780ADF36A1185FC146EC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleSFSafariViewController;
+			productName = SampleSFSafariViewController;
+			productReference = F8059D2E1C1AC6450029B45C /* SampleSFSafariViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8059D411C1AC6450029B45C /* SampleSFSafariViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8059D591C1AC6450029B45C /* Build configuration list for PBXNativeTarget "SampleSFSafariViewControllerTests" */;
+			buildPhases = (
+				F8059D3E1C1AC6450029B45C /* Sources */,
+				F8059D3F1C1AC6450029B45C /* Frameworks */,
+				F8059D401C1AC6450029B45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8059D441C1AC6450029B45C /* PBXTargetDependency */,
+			);
+			name = SampleSFSafariViewControllerTests;
+			productName = SampleSFSafariViewControllerTests;
+			productReference = F8059D421C1AC6450029B45C /* SampleSFSafariViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8059D4C1C1AC6450029B45C /* SampleSFSafariViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8059D5C1C1AC6450029B45C /* Build configuration list for PBXNativeTarget "SampleSFSafariViewControllerUITests" */;
+			buildPhases = (
+				F8059D491C1AC6450029B45C /* Sources */,
+				F8059D4A1C1AC6450029B45C /* Frameworks */,
+				F8059D4B1C1AC6450029B45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8059D4F1C1AC6450029B45C /* PBXTargetDependency */,
+			);
+			name = SampleSFSafariViewControllerUITests;
+			productName = SampleSFSafariViewControllerUITests;
+			productReference = F8059D4D1C1AC6450029B45C /* SampleSFSafariViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8059D261C1AC6450029B45C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RyoKosuge;
+				TargetAttributes = {
+					F8059D2D1C1AC6450029B45C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F8059D411C1AC6450029B45C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F8059D2D1C1AC6450029B45C;
+					};
+					F8059D4C1C1AC6450029B45C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F8059D2D1C1AC6450029B45C;
+					};
+				};
+			};
+			buildConfigurationList = F8059D291C1AC6450029B45C /* Build configuration list for PBXProject "SampleSFSafariViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8059D251C1AC6450029B45C;
+			productRefGroup = F8059D2F1C1AC6450029B45C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8059D2D1C1AC6450029B45C /* SampleSFSafariViewController */,
+				F8059D411C1AC6450029B45C /* SampleSFSafariViewControllerTests */,
+				F8059D4C1C1AC6450029B45C /* SampleSFSafariViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8059D2C1C1AC6450029B45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8550F631C1ACB100026F163 /* ItemTableViewCell.xib in Resources */,
+				F8059D3C1C1AC6450029B45C /* LaunchScreen.storyboard in Resources */,
+				F8059D391C1AC6450029B45C /* Assets.xcassets in Resources */,
+				F8059D371C1AC6450029B45C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8059D401C1AC6450029B45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8059D4B1C1AC6450029B45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0433DE58127B5C3A5036F08D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0789780ADF36A1185FC146EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleSFSafariViewController/Pods-SampleSFSafariViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBF06E4249441BF3DE9EA65 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleSFSafariViewController/Pods-SampleSFSafariViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8059D2A1C1AC6450029B45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8550F6D1C1AD64B0026F163 /* ModalAnimator.swift in Sources */,
+				F8550F671C1ACBC30026F163 /* ItemTableViewCell.swift in Sources */,
+				F8059D341C1AC6450029B45C /* ViewController.swift in Sources */,
+				F8550F6B1C1AD49C0026F163 /* SafariViewController.swift in Sources */,
+				F8550F5F1C1ACA240026F163 /* QiitaService.swift in Sources */,
+				F8059D321C1AC6450029B45C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8059D3E1C1AC6450029B45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8059D471C1AC6450029B45C /* SampleSFSafariViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8059D491C1AC6450029B45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8059D521C1AC6450029B45C /* SampleSFSafariViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8059D441C1AC6450029B45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8059D2D1C1AC6450029B45C /* SampleSFSafariViewController */;
+			targetProxy = F8059D431C1AC6450029B45C /* PBXContainerItemProxy */;
+		};
+		F8059D4F1C1AC6450029B45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8059D2D1C1AC6450029B45C /* SampleSFSafariViewController */;
+			targetProxy = F8059D4E1C1AC6450029B45C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8059D351C1AC6450029B45C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8059D361C1AC6450029B45C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8059D3A1C1AC6450029B45C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8059D3B1C1AC6450029B45C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8059D541C1AC6450029B45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8059D551C1AC6450029B45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8059D571C1AC6450029B45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195709638B2E3AE89BE36479 /* Pods-SampleSFSafariViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleSFSafariViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSFSafariViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8059D581C1AC6450029B45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08384DE22069C18BA6F6FF7 /* Pods-SampleSFSafariViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleSFSafariViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSFSafariViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8059D5A1C1AC6450029B45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleSFSafariViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSFSafariViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleSFSafariViewController.app/SampleSFSafariViewController";
+			};
+			name = Debug;
+		};
+		F8059D5B1C1AC6450029B45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleSFSafariViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSFSafariViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleSFSafariViewController.app/SampleSFSafariViewController";
+			};
+			name = Release;
+		};
+		F8059D5D1C1AC6450029B45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SampleSFSafariViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSFSafariViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SampleSFSafariViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8059D5E1C1AC6450029B45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SampleSFSafariViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ryochin.SampleSFSafariViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SampleSFSafariViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8059D291C1AC6450029B45C /* Build configuration list for PBXProject "SampleSFSafariViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8059D541C1AC6450029B45C /* Debug */,
+				F8059D551C1AC6450029B45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8059D561C1AC6450029B45C /* Build configuration list for PBXNativeTarget "SampleSFSafariViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8059D571C1AC6450029B45C /* Debug */,
+				F8059D581C1AC6450029B45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8059D591C1AC6450029B45C /* Build configuration list for PBXNativeTarget "SampleSFSafariViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8059D5A1C1AC6450029B45C /* Debug */,
+				F8059D5B1C1AC6450029B45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8059D5C1C1AC6450029B45C /* Build configuration list for PBXNativeTarget "SampleSFSafariViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8059D5D1C1AC6450029B45C /* Debug */,
+				F8059D5E1C1AC6450029B45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8059D261C1AC6450029B45C /* Project object */;
+}
