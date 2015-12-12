@@ -4,26 +4,6 @@ AdventCalendar 2015で書いた記事のサンプルなどをまとめたレポ�
 
 追加したらREADMEにも追記していきます。
 
-## 書いた記事
-
-- 12/03 [【iOS】配列の要素をユニークにしてみる](http://qiita.com/ryokosuge/items/39bc83465e2ac9a003f2)
-
-	iOSのAdventCalendarなのに**Swift**のことを書きました。
-	
-	`SequenceType`など色々調べて自分にとっても勉強になりました。
-	
-- 12/10 [【iOS】LocalNotification使ってユーザーの復帰率を上げよう！](http://qiita.com/ryokosuge/items/cbc9ce335c7a3f60243a)
-
-	LocalNotificationの実装について書きました。
-	
-- 12/12 [【iOS】SmartNewsみたいなUIをつくってみました]()
-
-	まだ公開されていません。
-	
-- 12/13 [【iOS】無限スクロールするUICollectionViewの作り方]()
-
-	まだ公開されていません。
-
 ## プロジェクト一覧
 
 AdventCalendar2015の記事に合わせて作ったサンプル等の説明です
@@ -43,3 +23,32 @@ SmartNewsみたいなUIを実現してみました。
 ### [SampleInfinityCollectionView](https://github.com/ryokosuge/AdventCalendar2015/tree/master/SampleInfinityCollectionView)
 
 無限スクロールできる`UICollectionView`を実装してみました。
+
+### [SampleSFSafariViewController](https://github.com/ryokosuge/AdventCalendar2015/tree/master/SampleSFSafariViewController)
+
+`UINavigationController`のpush / popのアニメーションができるように実装してみました。
+
+## 書いた記事
+
+- 12/03 [【iOS】配列の要素をユニークにしてみる](http://qiita.com/ryokosuge/items/39bc83465e2ac9a003f2)
+
+	iOSのAdventCalendarなのに**Swift**のことを書きました。
+	
+	`SequenceType`など色々調べて自分にとっても勉強になりました。
+	
+- 12/10 [【iOS】LocalNotification使ってユーザーの復帰率を上げよう！](http://qiita.com/ryokosuge/items/cbc9ce335c7a3f60243a)
+
+	LocalNotificationの実装について書きました。
+	
+- 12/12 [【iOS】SmartNewsみたいなUIをつくってみました](http://qiita.com/ryokosuge/items/4603c3072de21eb4da03)
+
+	SmartNewsみたいなHeaderの部分のUIを真似てみました。
+	
+- 12/13 [【iOS】無限スクロールするUICollectionViewの作り方]()
+
+	まだ公開されていません。
+
+- 12/15 [【iOS】SFSafariViewControllerをPush / Pop のアニメーションで表示する]()
+
+	まだ公開されていません。
+
