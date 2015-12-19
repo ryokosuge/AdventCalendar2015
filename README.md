@@ -26,7 +26,11 @@ SmartNewsみたいなUIを実現してみました。
 
 ### [SampleSFSafariViewController](https://github.com/ryokosuge/AdventCalendar2015/tree/master/SampleSFSafariViewController)
 
-`UINavigationController`のpush / popのアニメーションができるように実装してみました。
+`UINavigationController`のpush / popのアニメーションで`SFSafariViewController`を表示できるように実装してみました。
+
+### [SampleSwipeNavigationController](https://github.com/ryokosuge/AdventCalendar2015/tree/master/SampleSwipeNavigationController)
+
+`UINavigationController`を横スワイプで戻れるようにしてみた
 
 ## 書いた記事
 
@@ -44,11 +48,15 @@ SmartNewsみたいなUIを実現してみました。
 
 	SmartNewsみたいなHeaderの部分のUIを真似てみました。
 	
-- 12/13 [【iOS】無限スクロールするUICollectionViewの作り方]()
+- 12/13 [【iOS】無限スクロールするUICollectionViewの作り方](https://github.com/ryokosuge/AdventCalendar2015/tree/master/SampleInfinityCollectionView)
 
-	まだ公開されていません。
+	ひたすらスクロールできるUICollectionViewを作りました。
 
-- 12/15 [【iOS】SFSafariViewControllerをPush / Pop のアニメーションで表示する]()
+- 12/15 [【iOS】SFSafariViewControllerをPush / Pop のアニメーションで表示する](https://github.com/ryokosuge/AdventCalendar2015/tree/master/SampleSFSafariViewController)
 
-	まだ公開されていません。
+	Model表示しかできないSFSafariViewControllerにpush / popのアニメーションで表示するサンプル作りました。
+	
+- 12/19 [【iOS】Swipeで簡単に戻れるNavigationControllerを作ってみた](http://qiita.com/ryokosuge/items/e3cee04cf8ff0c138719)
+
+	`UINavigationController`で横スワイプに対応させる実装方法を書きました。
 
