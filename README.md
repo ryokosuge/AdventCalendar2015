@@ -32,6 +32,10 @@ SmartNewsみたいなUIを実現してみました。
 
 `UINavigationController`を横スワイプで戻れるようにしてみた
 
+### [SampleMMMarkdown](https://github.com/ryokosuge/AdventCalendar2015/tree/master/SampleMMMarkdown)
+
+Markdownを描画するライブラリを使用してQiitaの記事を表示してみました。
+
 ## 書いた記事
 
 - 12/03 [【iOS】配列の要素をユニークにしてみる](http://qiita.com/ryokosuge/items/39bc83465e2ac9a003f2)
@@ -60,3 +64,6 @@ SmartNewsみたいなUIを実現してみました。
 
 	`UINavigationController`で横スワイプに対応させる実装方法を書きました。
 
+- 12/20 [【iOS】MarkdownをHTMLにレンダリングするライブラリを使って、Qiitaの記事をMarkdownで表示してみた](http://qiita.com/ryokosuge/items/64bb6df23fbf98325c5c)
+
+	`MMMarkdown`を使用する方法を書きました。
