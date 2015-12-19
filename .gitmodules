@@ -1,0 +1,15 @@
+[submodule "Carthage/Checkouts/Alamofire"]
+	path = SampleMMMarkdown/Carthage/Checkouts/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Carthage/Checkouts/Himotoki"]
+	path = SampleMMMarkdown/Carthage/Checkouts/Himotoki
+	url = https://github.com/ikesyo/Himotoki.git
+[submodule "Carthage/Checkouts/MMMarkdown"]
+	path = SampleMMMarkdown/Carthage/Checkouts/MMMarkdown
+	url = https://github.com/mdiep/MMMarkdown.git
+[submodule "Carthage/Checkouts/Result"]
+	path = SampleMMMarkdown/Carthage/Checkouts/Result
+	url = https://github.com/antitypical/Result.git
+[submodule "Carthage/Checkouts/BrightFutures"]
+	path = SampleMMMarkdown/Carthage/Checkouts/BrightFutures
+	url = https://github.com/Thomvis/BrightFutures.git
